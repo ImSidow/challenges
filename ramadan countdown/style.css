@@ -1,0 +1,58 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #FE8F01;
+}
+
+.back-box {
+    position: absolute;
+    top: 20%;
+    right: 20%;
+    width: 30%;
+    height: 50vh;
+}
+.countdown {
+    position: absolute;
+    top: 55%;
+    right: 18%;
+    width: 35%;
+    height: 20vh;
+}
+
+.back-box div:first-child {
+    font-size: 2vw;
+    font-family: "Roboto Mono";
+    font-weight: 200;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 10%;
+}
+.back-box div:last-child {
+    font-size: 3vw;
+    font-family: "Roboto Mono";
+    font-weight: 600;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 5px;
+}
+
+.countdown {
+    display: flex;
+    flex-direction: row;
+}
+.countdown .date-box {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    padding-top: 2%;
+    box-sizing: border-box;
+}
+.countdown .date-box div:first-child{
+    font-size: 4vw;
+}
+.countdown .date-box div:last-child{
+    font-size: 1.3vw;
+    font-family: "Roboto Mono";
+    text-transform: uppercase;
+}
+
